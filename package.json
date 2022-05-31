@@ -1,10 +1,11 @@
 {
   "name": "@nepexgroup/crud-sdk",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "main": "./dist/crud-sdk.common.js",
     "build-bundle": "vue-cli-service build --target lib -n ./src/components/index.js",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
