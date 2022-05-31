@@ -1,5 +1,8 @@
 # crud-sdk
 
+## Inspiration
+- https://github.com/saleor/saleor-sdk
+
 ## Project setup
 ```
 yarn install
