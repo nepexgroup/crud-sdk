@@ -1,9 +1,9 @@
 <template>
   <div>
-    <slot name="label">
+    <!-- <slot name="label"> -->
       <label :for="name">{{ label }}:</label>
-    </slot>
-    <slot name="input">
+    <!-- </slot> -->
+    <!-- <slot name="input"> -->
       <input
         :type="type"
         :id="name"
@@ -12,10 +12,10 @@
         @input="$event => $emit('input', $event.target.value)"
         @change="$event => $emit('input', $event.target.value)"
       />
-    </slot>
+    <!-- </slot> -->
   </div>
 </template>
-<script>
+<script lang="ts">
 export default {
   name: 'XInput',
   props: {
@@ -34,7 +34,7 @@ export default {
     }
   },
   methods: {
-    keyUp(e) {
+    keyUp(e: Event): void {
       console.log(e);
     }
   }

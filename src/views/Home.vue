@@ -18,7 +18,7 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import Input from '@/components/fields/Input/Input.vue';
+import XInput from '@/components/fields/Input/XInput.vue';
 
 @Component({
   data() {
@@ -56,7 +56,7 @@ import Input from '@/components/fields/Input/Input.vue';
     }
   },
   components: {
-    'x-input': Input,
+    'x-input': XInput,
   },
 })
 export default class Home extends Vue {}

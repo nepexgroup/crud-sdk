@@ -1,6 +1,6 @@
-interface Props {
-    name: string
-    label: string
-    type?: string
-}
-
+// interface Props {
+//     name: string
+//     label: string
+//     type?: string
+// }
+//
