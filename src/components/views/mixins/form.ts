@@ -105,18 +105,18 @@ export default Vue.extend({
             }
             this.submit(verb, url);
         },
-        post(url: string): Promise<unknown> {
-            return this.submit("post", url);
-        },
-        put(url: string): Promise<unknown> {
-            return this.submit("put", url);
-        },
-        patch(url: string): Promise<unknown> {
-            return this.submit("patch", url);
-        },
-        remove(url: string): Promise<unknown> {
-            return this.submit("delete", url);
-        },
+        // post(url: string): Promise<unknown> {
+        //     return this.submit("post", url);
+        // },
+        // put(url: string): Promise<unknown> {
+        //     return this.submit("put", url);
+        // },
+        // patch(url: string): Promise<unknown> {
+        //     return this.submit("patch", url);
+        // },
+        // remove(url: string): Promise<unknown> {
+        //     return this.submit("delete", url);
+        // },
         resetForm(): void {
             Object.assign(this.fields, this.originalFields);
         },
